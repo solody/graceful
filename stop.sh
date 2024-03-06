@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [[ -z ${GRACEFUL_STOP_TASK} ]]; then
+if [[ -n ${GRACEFUL_STOP_TASK} ]]; then
   "${GRACEFUL_STOP_TASK}"
 fi
 
