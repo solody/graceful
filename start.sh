@@ -7,7 +7,7 @@ fi
 
 
 if [[ -n ${GRACEFUL_START_TASK} ]]; then
-  "${GRACEFUL_START_TASK}"
+  ${GRACEFUL_START_TASK}
 fi
 
 exit 0
